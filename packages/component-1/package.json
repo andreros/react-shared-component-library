@@ -1,0 +1,21 @@
+{
+  "name": "@andreros/component-1",
+  "version": "1.0.0",
+  "description": "Component 1 from react shared component library.",
+  "author": "André Rosa (andreros@gmail.com)",
+  "license": "UNLICENSED",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf dist && rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
+}
