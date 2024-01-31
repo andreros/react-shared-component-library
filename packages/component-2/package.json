@@ -17,5 +17,6 @@
   "type": "module",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "fed6704ad2f65b109c17dcbac3530f4fa9401c51"
 }

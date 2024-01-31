@@ -11,6 +11,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+      "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
