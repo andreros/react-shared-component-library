@@ -4,7 +4,7 @@
   "description": "React shared component library monorepo with typescript, lerna and storybook.",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lerna:publish": "npx lerna publish"
   },
   "author": "André Rosa (andreros@gmail.com)",
   "license": "UNLICENSED",
