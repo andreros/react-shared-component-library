@@ -6,7 +6,9 @@
   "scripts": {
     "lerna:publish": "npx lerna publish",
     "build-storybook": "storybook build",
-    "storybook": "storybook dev -p 6006"
+    "storybook": "storybook dev -p 6006",
+    "test": "cross-env NODE_ENV=test jest --watch",
+    "test:coverage": "cross-env NODE_ENV=test jest --coverage"
   },
   "author": "André Rosa (andreros@gmail.com)",
   "license": "UNLICENSED",
@@ -32,6 +34,7 @@
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.11",
     "@types/react": "^18.2.48",
+    "cross-env": "^7.0.3",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lerna": "^8.0.2",
