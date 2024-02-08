@@ -4,7 +4,9 @@
   "description": "React shared component library monorepo with typescript, lerna and storybook.",
   "main": "index.ts",
   "scripts": {
-    "lerna:publish": "npx lerna publish"
+    "lerna:publish": "npx lerna publish",
+    "build-storybook": "storybook build",
+    "storybook": "storybook dev -p 6006"
   },
   "author": "André Rosa (andreros@gmail.com)",
   "license": "UNLICENSED",
@@ -12,12 +14,20 @@
     "packages/*"
   ],
   "publishConfig": {
-      "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^7.6.13",
+    "@storybook/addon-interactions": "^7.6.13",
+    "@storybook/addon-links": "^7.6.13",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.13",
+    "@storybook/react": "^7.6.13",
+    "@storybook/react-webpack5": "^7.6.13",
+    "@storybook/test": "^7.6.13",
     "@testing-library/react": "^14.2.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.11",
@@ -30,6 +40,7 @@
     "rimraf": "^5.0.5",
     "rollup": "^4.9.6",
     "rollup-plugin-dts": "^6.1.0",
+    "storybook": "^7.6.13",
     "ts-jest": "^29.1.2",
     "typescript": "^5.3.3"
   }

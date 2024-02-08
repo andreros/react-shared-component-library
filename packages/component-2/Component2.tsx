@@ -5,5 +5,5 @@ export type TComponent2Props = {
 };
 
 export const Component2: React.FC<TComponent2Props> = ({ className }) => {
-  return <div className={className}>Component 1</div>;
+  return <div className={className}>Component 2</div>;
 };
