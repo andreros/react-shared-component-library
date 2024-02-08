@@ -18,5 +18,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "fed6704ad2f65b109c17dcbac3530f4fa9401c51"
+  "gitHead": "fed6704ad2f65b109c17dcbac3530f4fa9401c51",
+  "dependencies": {
+    "clsx": "^2.1.0"
+  }
 }
